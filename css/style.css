@@ -28,23 +28,24 @@ label.logo{
     font-weight: bold;
 }
 
-nav, ul{
-   /* float: right; */
-   /* margin-right: 20px; */
+label img {
+    width: 450px;
+    margin-top: ;
 }
 
 nav, ul, li{
     display: inline-block;
     line-height: 55px;
-    /* margin: 0 5px; */
+   
 }
 
  ul, li, a{
     color:brown;
-    font-size: 17px;
+    font-size: 20px;
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 3px;
+    font-weight: bold;
 }
 
 .activ:hover{
@@ -62,3 +63,32 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
 } 
+
+#grid {
+    height: 70vh;
+    width: 100vw;
+    display: grid;
+    grid-template-areas: 
+    "o1 b1"
+    "o2 b1"
+    "m1 b2"
+    "m2 b2"
+    "k1 b3"
+    "k2 b3";
+
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 50% 50%;
+
+}
+
+#o1 {
+    grid-area: o1;
+    color: white;
+    
+}
+#o2 {
+    grid-area: o2;
+    color: white;
+    
+
+}
