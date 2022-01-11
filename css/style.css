@@ -16,7 +16,7 @@ font-family: unset;}
 
 nav{
    background: wheat;
-   height:80px;
+   height:12vh;
    width: 100%;
 }
 
@@ -154,4 +154,14 @@ left: 22.5vw;
     border-color: #D8B782;
     border-width: 20px;
     border-style: solid;
+}
+
+#meny1{
+    
+    
+    color: black ;
+   margin-left: 44vw;
+   margin-top: 20vh;
+   font-size: 5rem;
+
 }
