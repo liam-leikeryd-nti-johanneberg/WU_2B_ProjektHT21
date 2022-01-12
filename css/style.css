@@ -165,3 +165,50 @@ left: 22.5vw;
    font-size: 5rem;
 
 }
+
+.meny_box{
+    display: grid;
+
+    grid-template-columns: 4;
+    grid-template-rows: 2;
+    grid-template-areas:
+    "ju b1":
+    "br b2":
+    "lu b3":
+    "b4 b5":
+    ;
+    
+    position: absolute;
+    background-color: brown;
+    width:70%;
+    height: 100%;
+    top: 50vh;
+    border-radius: 20px;
+    left: 15vw;
+}
+
+.b0{
+    grid-area: b1;
+}
+.b2{
+    grid-area: b2;
+}
+.b3{
+    grid-area: b3;
+}
+.b4{
+    grid-area: b4;
+
+}
+.b5{
+    grid-area: b5;
+}
+.ju{
+    grid-area: ju;
+}
+.br{
+    grid-area: br;
+}
+.lu{
+    grid-area: lu;
+}
