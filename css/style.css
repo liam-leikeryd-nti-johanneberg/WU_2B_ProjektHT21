@@ -27,7 +27,7 @@ nav ul {
 
 label.logo{
     color: brown;
-    font-size: 35px;
+    font-size: 2.1875rem;
     line-height: 80px;
     padding: 0 100px;
     font-weight: bold;
@@ -46,7 +46,7 @@ nav, ul, li{
 
  ul, li, a{
     color:brown;
-    font-size: 20px;
+    font-size: 1.7rem;
     text-transform: uppercase;
     padding: 7px 13px;
     border-radius: 3px;
@@ -142,7 +142,7 @@ body{background-color: wheat;}
 position: absolute;
 top: 112vh;
 color: brown ;
-left: 22.5vw;
+left: 25vw;
 }
 
 .juice{
@@ -159,7 +159,7 @@ left: 22.5vw;
 #meny1{
     
     
-    color: black ;
+    color: white ;
    margin-left: 44vw;
    margin-top: 20vh;
    font-size: 5rem;
@@ -169,46 +169,149 @@ left: 22.5vw;
 .meny_box{
     display: grid;
 
-    grid-template-columns: 4;
+    grid-template-columns: 5;
     grid-template-rows: 2;
     grid-template-areas:
-    "ju b1":
-    "br b2":
-    "lu b3":
-    "b4 b5":
+    "ju b1"
+    "br b2"
+    "lu b3"
+    "b4 b5"
+    "b4 b5"
     ;
     
     position: absolute;
-    background-color: brown;
+    background-color: #D8B782;
     width:70%;
-    height: 100%;
+    height: 250%;
     top: 50vh;
-    border-radius: 20px;
+    border-radius: 50px;
     left: 15vw;
+    grid-gap: 20px;
 }
 
 .b0{
     grid-area: b1;
+    background-image: url(/img/jugoslocos-QD4yCjlD44A-unsplash.jpg);
+    background-repeat: no-repeat;
+    border-radius: 50px;
 }
 .b2{
     grid-area: b2;
+    background-image: url(/img/photo-1540914124281-342587941389.jpeg);
+    background-repeat: no-repeat;
+    border-radius: 50px;
 }
 .b3{
     grid-area: b3;
+    background-image: url(/img/ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-repeat: no-repeat;
+    
+    border-radius: 50px;
+    width: 100%;
 }
 .b4{
     grid-area: b4;
-
+   background-image: url(/img/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg);
+   border-radius: 50px;
+   background-repeat: no-repeat;
+   background-size: cover;
 }
 .b5{
     grid-area: b5;
+    background-image: url(/img/estudio-bloom-2o7nA--TUXc-unsplash.jpg);
+    border-radius: 50px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 .ju{
     grid-area: ju;
+    position: absolute;
+    margin-top: 1vh;
+    left: 14vw;
+    
+    
+    
 }
 .br{
     grid-area: br;
+    position: absolute;
+    margin-top: 1vh;
+    left: 14vw;
+
+     
 }
 .lu{
     grid-area: lu;
+    position: absolute;
+    margin-top: 1vh;
+    left: 14vw;
+    
+    
+}
+/* Av någon anledning så fungerar inte rem för att få den storleken som jag vill. T ex om jag har en font-size på 25 px så motsvarar det ca 1,5 rem, men då blir texten jätte liten. när jag sedan prövar typ 1,8 så är texten exakt lika stor som med 1,5. Om jag sedan provar 2 rem så blir texten istället alderles för stor. Verkar som att jag bara kan angiva rem i heltal och skilnaden från 1 till 2rem är otroligt stor :/ */
+.meny_box p{
+   font-size: 1.5rem;
+
+}
+
+.meny_box h2{
+    font-size: 2.375rem;
+}
+
+.oss{
+    position: absolute;
+    top: 19vh;
+    margin-left: 40vw;
+    color: white;
+}
+.karta{
+    
+    margin-top: 18vh;
+    margin-left: 26.5vw;
+    border-radius: 50px;
+    border-color: #D8B782 ;
+    border-width: 20px;
+    border-style: solid;
+    
+}
+
+.varfinns{
+    position: absolute;
+    background: #D8B782;
+    width: 20vw;
+    height: 50vh;
+    margin-top: 25vh;
+    margin-left: 2vw;
+    border-radius: 20px;
+
+}
+.öppentider{
+    position: absolute;
+    background: #D8B782;
+    width: 20vw;
+    height: 50vh;
+    margin-top: 25vh;
+    margin-left: 78vw;
+    border-radius: 20px;
+
+}
+
+.varfinns h2{
+    padding: 3%;
+    margin-left: 3vw;
+    font-size: 2.1875rem;
+}
+.varfinns p{
+    padding: 3%;
+    font-size: 1.5rem;
+}
+.öppentider h2{
+    padding: 3%;
+    margin-left: 3vw;
+    font-size: 2.1875rem;
+}
+.öppentider p{
+    padding: 2.5%;
+    font-size: 1.2rem;
+    margin-left: 17%;
 }
