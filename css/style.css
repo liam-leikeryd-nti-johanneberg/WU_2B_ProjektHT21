@@ -191,19 +191,19 @@ left: 25vw;
 
 .b0{
     grid-area: b1;
-    background-image: url(/img/jugoslocos-QD4yCjlD44A-unsplash.jpg);
+    background-image: url(../img/jugoslocos-QD4yCjlD44A-unsplash.jpg);
     background-repeat: no-repeat;
     border-radius: 50px;
 }
 .b2{
     grid-area: b2;
-    background-image: url(/img/photo-1540914124281-342587941389.jpeg);
+    background-image: url(../img/photo-1540914124281-342587941389.jpeg);
     background-repeat: no-repeat;
     border-radius: 50px;
 }
 .b3{
     grid-area: b3;
-    background-image: url(/img/ivan-torres-MQUqbmszGGM-unsplash.jpg);
+    background-image: url(../img/ivan-torres-MQUqbmszGGM-unsplash.jpg);
     background-repeat: no-repeat;
     
     border-radius: 50px;
@@ -211,14 +211,14 @@ left: 25vw;
 }
 .b4{
     grid-area: b4;
-   background-image: url(/img/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg);
+   background-image: url(../img/eiliv-sonas-aceron-ZuIDLSz3XLg-unsplash.jpg);
    border-radius: 50px;
    background-repeat: no-repeat;
    background-size: cover;
 }
 .b5{
     grid-area: b5;
-    background-image: url(/img/estudio-bloom-2o7nA--TUXc-unsplash.jpg);
+    background-image: url(../img/estudio-bloom-2o7nA--TUXc-unsplash.jpg);
     border-radius: 50px;
     background-repeat: no-repeat;
     background-size: cover;
@@ -248,7 +248,7 @@ left: 25vw;
     
     
 }
-/* Av någon anledning så fungerar inte rem för att få den storleken som jag vill. T ex om jag har en font-size på 25 px så motsvarar det ca 1,5 rem, men då blir texten jätte liten. när jag sedan prövar typ 1,8 så är texten exakt lika stor som med 1,5. Om jag sedan provar 2 rem så blir texten istället alderles för stor. Verkar som att jag bara kan angiva rem i heltal och skilnaden från 1 till 2rem är otroligt stor :/ */
+
 .meny_box p{
    font-size: 1.5rem;
 
